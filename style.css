@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid{
+  background: #a9d2ff;
+}
+.navbar-brand{
+  background: #a9d2ff;
+}
+.collapse{
+  background: #a9d2ff;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #a9d2ff;
+}
+.bg-main-box{
+  background: #a9d2ff;
+}
+body{
+  background: #a9d2ff;
+}
+.app{
+  background: #a9d2ff;
+width: 90%;
+max-width: 600px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+opacity: 1;
+}
+.app h1{
+  font-size: 25px;
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 30px;
+}
+.quiz{
+  padding: 20px 0;
+}
+.quiz h2{
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+}
+.text-green{
+  color: #337984 !important;
+}
+.start-btn{
+  background: #337984;
+  color: #ffffff;
+  font-weight: 500;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.start-btn:hover:not([disabled]){
+  background: #a9d2ff;
+  color: #000000;   
+}
+.button{
+  background: #ffffff !important;
+  color: #000000;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover:not([disabled]){
+  background: #337984 !important;
+  color: #000000;   
+}
+.button:disabled{
+  cursor: no-drop;
+}
+#submitBtn{
+  background: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  width: 75px;
+  border: 0;
+}
+#submitBtn:hover:not([disabled]){
+  background: #337984 !important;
+  color: #000000;   
+}
+#next-btn{
+  background: #fff;
+  color: #1c2537;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+#next-btn:hover:not([disabled]){
+  background: #337984 !important;
+  color: #000000;   
+}
+
+.correct{
+  background: #9aeabc !important;
+}
+.incorrect{
+  background: #ff9393 !important;
+}
+.fz-5{
+  color: #337984;
+  font-size: 8rem !important;
+  line-height: 7rem;
+  text-align: left !important;
+}
+.first{
+  font-size: 2rem;
+  color: #337984;
+  text-align: left !important;
+  line-height: 2rem;
+  background: #fff;
+}
+p.text-center{
+  color: #000000;
+  font-size: 4rem;
+}
+.h5,h5{
+  font-size: 1rem;
+  font-weight: 800;
+}
+.text_about{
+  background: gray;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+}
